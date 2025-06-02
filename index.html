@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My GitHub Page</title>
+  <style>
+    :root {
+      --primary-color: #007acc;
+      --bg-color: #f9f9f9;
+      --text-color: #333;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #fff;
+      padding: 0.5rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: var(--primary-color);
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 50px 20px;
+      text-align: center;
+      background: linear-gradient(to right, #007acc, #005f99);
+      color: white;
+    }
+
+    .hero h1 {
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .hero a {
+      background-color: white;
+      color: var(--primary-color);
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <p>Showcasing my work and projects</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Hello, I'm Your Name</h1>
+    <p>Aspiring web developer & tech enthusiast</p>
+    <a href="#projects">View My Work</a>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I'm passionate about building web apps, learning new technologies, and solving real-world problems with code. I love working on creative and collaborative projects.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="card">
+      <h3>Project One</h3>
+      <p>A brief description of your first project. You can link to a GitHub repo or a live demo.</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="card">
+      <h3>Project Two</h3>
+      <p>Another awesome project description goes here.</p>
+      <a href="#">View Project</a>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Reach out via <a href="mailto:your.email@example.com">email</a> or follow me on <a href="#">Twitter</a>.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+</body>
+</html>
